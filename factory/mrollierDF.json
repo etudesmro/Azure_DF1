@@ -1,0 +1,9 @@
+{
+	"name": "mrollierDF",
+	"location": "francecentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4b143bde-0675-49cd-b536-c57dec65af44",
+		"tenantId": "e5d15069-41a2-48be-a3f3-d7f52db16425"
+	}
+}
