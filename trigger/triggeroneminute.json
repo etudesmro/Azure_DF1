@@ -1,0 +1,27 @@
+{
+	"name": "triggeroneminute",
+	"properties": {
+		"description": "each minute",
+		"annotations": [
+			"Triggerone"
+		],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "TxtToSQL",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 1,
+				"startTime": "2021-07-06T10:02:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
