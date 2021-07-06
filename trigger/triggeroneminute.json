@@ -5,7 +5,7 @@
 		"annotations": [
 			"Triggerone"
 		],
-		"runtimeState": "Started",
+		"runtimeState": "Stopped",
 		"pipelines": [
 			{
 				"pipelineReference": {
