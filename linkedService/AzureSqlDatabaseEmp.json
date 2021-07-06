@@ -1,0 +1,13 @@
+{
+	"name": "AzureSqlDatabaseEmp",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "An Azure SQL DB with emp table",
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=dstimrollier2.database.windows.net;initial catalog=mrodb1;user id=mrollier",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIk1ST0xMSUVSREZfYjBkNTQ1ODktZGY0NS00OGQ3LTg4OWYtOGY2ODQ4ZDc4ZjEzIg0KfQ=="
+		}
+	}
+}
